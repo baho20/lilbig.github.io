@@ -1,0 +1,39 @@
+
+.hero-slide {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-image 1s ease-in-out;
+}
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+h1, h2, h4 {
+  color: #2c3e50;
+}
+.card {
+  border: none;
+  border-radius: 1rem;
+}
+.btn-primary {
+  background-color: #0077cc;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #005fa3;
+}
